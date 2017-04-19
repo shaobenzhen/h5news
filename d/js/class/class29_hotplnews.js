@@ -1,0 +1,1 @@
+document.write("<li><a href=\"http://localhost/guanggaohezuo/169.html\" title=\"广告合作\">广告合作</a></li>");

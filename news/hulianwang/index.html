@@ -1,0 +1,631 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>互联网-h5新闻网站</title>
+<meta name="keywords" content="互联网" />
+<meta name="description" content="互联网" />
+<script type='text/javascript' src='/e/data/js/ajax.js'></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/style.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/responsive.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/custom.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome.css"  media="all" />
+<style>
+article.product .tips {
+	display: none;
+}
+</style>
+<link rel='stylesheet' id='nm-css'  href='/skin/ecms802/css/style2.css?ver=2016.12.21' type='text/css' media='all' />
+<script type='text/javascript' src='/skin/ecms802/js/jquery-1.10.2.min.js?ver=2016.12.21'></script>
+<!--[if lt IE 9]>
+<script src="/skin/ecms802/js/html5.js"></script>
+<script src="/skin/ecms802/js/css3-mediaqueries.js"></script>
+<script src="/skin/ecms802/js/PIE_IE678.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/iefix.css"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome-ie7.min.css"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="/skin/ecms802/js/kill-IE6.js"></script>
+<![endif]-->
+</head>
+<body id="wrap" class="home blog" style="background:#ffffff; ">
+<div id="body-container">
+<aside id="navmenu-mobile">
+  <div id="navmenu-mobile-wraper">
+    <div class="mobile-login-field">
+      <div id="login-box-mobile">
+        <div class="login-box-mobile-form"> 
+          <script src="/e/member/login/loginjsm.php"></script></div>
+      </div>
+    </div>
+    <ul id="menu-mobile" class="menu-mobile">
+            <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>    </ul>
+  </div>
+</aside>
+<section id="content-container">
+  <header class="header-wrap" id="nav-scroll">
+    <div class="nav-wrap">
+      <div class="logo"> <a href="/" alt="h5新闻网站" id="logo" > <img src="/skin/ecms802/img/logo.png"> </a> </div>
+      <div class="toggle-menu"> <i class="fa fa-bars"></i> </div>
+      <div class="search-btn-click"> <i class="fa fa-search"></i> </div>
+      <div id="login-reg"> 
+        <script src="/e/member/login/loginjsd.php"></script> 
+      </div>
+      <div id="focus-us">
+关注我们<div id="focus-slide" class="ie_pie">
+<div class="focus-title">关注我们</div>
+<p class="focus-content">
+		<a href="http://weibo.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-weibo"></i>新浪微博</span></a>
+		<a href="http://t.qq.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-tencent-weibo"></i>腾讯微博</span></a>
+</p>
+</div></div>
+
+<!--  请改为自己的，或者 “不写入缓存” 就关闭了  -->      <nav id="pri-nav" class="site-navigation pri-nav elan_menu" role="navigation">
+        <div class="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95-container">
+          <ul id="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95" class="nav-menu">
+                  <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>                      </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="clr"></div>
+    <div class="site_loading"></div>
+    <div class="header-search-slide" style="display: none;">
+      <form onsubmit="return checkSearchForm()" method="post" id="searchform" class="searchform" action="/e/search/index.php" role="search">
+        <input type="hidden" value="title" name="show">
+        <input type="hidden" value="1" name="tempid">
+        <input type="hidden" value="news" name="tbname">
+        <input name="mid" value="1" type="hidden">
+        <input type="search" class="field" name="keyboard" value="" placeholder="输入关键词并回车" required>
+        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <div class="hidefixnav"></div>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'33%'},50); 
+</script>
+  <div class="breadcrumbs">
+    <div class="container clr">
+      <div id="breadcrumbs">
+        <h1><i class="fa fa-folder-open"></i>互联网</h1>
+        <div class="breadcrumbs-text"><a href="http://localhost/">首页</a>&nbsp;>&nbsp;<a href="http://localhost/news/">资讯</a>&nbsp;>&nbsp;<a href="http://localhost/news/hulianwang/">互联网</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrap">
+    <div id="home-blog-wrap" class="container two-col-container">
+      <div id="main-wrap-left">
+        <div class="bloglist-container clr">
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/206.html" title="知行合一，用总书记讲话精神引领网信事业发展" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/02713396254e4c61845a16e34c5da452.jpg" alt="知行合一，用总书记讲话精神引领网信事业发展">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/206.html" title="知行合一，用总书记讲话精神引领网信事业发展">知行合一，用总书记讲话精神引领网信事业发展</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=206"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/206.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>　　习近平总书记关于网信事业的重要讲话已经发表一年了，引发了国内外的广泛反响。我们强调知行合一，首先是知。在前年第二届世界互联网大会上面，习近平总书记提出来构建网络空间命运共同体的五点主张。我认为，这是在全球网络事业上的一个重要的理念。这与美国强调的所谓网络是全球公域</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/205.html" title="内蒙古16岁男孩沉迷网络打赏主播 两月花掉29万" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/9e8288d0df9f65ddc7b6593d5f2c975e.jpg" alt="内蒙古16岁男孩沉迷网络打赏主播 两月花掉29万">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/205.html" title="内蒙古16岁男孩沉迷网络打赏主播 两月花掉29万">内蒙古16岁男孩沉迷网络打赏主播 两月花掉29万</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=205"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/205.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>                                             
+中新网巴彦淖尔4月11日电 (张林虎 刘婧)29万元能花多久？家住内蒙古自治区临河区的小陈只用了两个月。11日，记者从临河区公安局获悉，16岁男孩小陈偷偷给自己喜欢的网络主播打赏，两个月花掉了家里29万元装修款。
+9日一早，市民陈先生来到临</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/204.html" title="互联网追求唯快不破，移动资讯却是场持久战" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/e0f9ad671978f6c25197924a3b89527c.jpg" alt="互联网追求唯快不破，移动资讯却是场持久战">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/204.html" title="互联网追求唯快不破，移动资讯却是场持久战">互联网追求唯快不破，移动资讯却是场持久战</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=204"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/204.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>前几日，阿里巴巴刚刚宣布土豆全面转型短视频平台，正式发布大鱼号；今日头条对外透露了自己D轮融资情况。不论是阿里发布大鱼号，还是今日头条融资，对于整个移动新闻资讯领域来说，无疑是一件好事，但是这背后却释放了一个强烈的信号：移动资讯这场战争远远没有结束，BAT纷纷参战并开始围剿今日头条</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="网络，新网，规矩" title="如何为网络新闻舆论立规矩" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/f86904b5b63d10adb7f358a3a0d6bb6b.jpg" alt="如何为网络新闻舆论立规矩">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="网络，新网，规矩" title="如何为网络新闻舆论立规矩">如何为网络新闻舆论立规矩</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=203"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="网络，新网，规矩#comments">
+    <span>查看评论</span></a></span></div>
+    <p>【摘要】与传统媒体新闻相比，网络新闻的口语化表述使其可读性更强，由此而产生的舆论影响也更为深远和广泛。可以说，网络新闻舆论能够在很大程度上反映社情民意，甚至影响到社会的公平正义和新时期的公共管理绩效。面对新公共管理视域下的网络新闻舆论的困境，需从多个层面进行纾解。
+强化</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/202.html" title="中国三大运营商将在雄安新区提前部署5G网络" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/4aa0c139748ea53b356ab0ac5e5a8784.jpg" alt="中国三大运营商将在雄安新区提前部署5G网络">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/202.html" title="中国三大运营商将在雄安新区提前部署5G网络">中国三大运营商将在雄安新区提前部署5G网络</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=202"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/202.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>中国电信运营商近日表示，将以国际领先标准规划建设雄安新区的新一代通信与信息基础设施及能力，在雄安新区超前规划部署5G移动通信网络。
+目前，三大电信运营商均成立服务雄安新区建设领导小组。中国电信集团10日宣布，公司成立服务河北雄安新区建设工作领导小组，集团总经理杨小伟担任组长，</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/201.html" title="揭秘网络主播背后那群人：经纪公司公会“水更深”" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/4ce674e271d6c0a94dce9df57615fd60.jpg" alt="揭秘网络主播背后那群人：经纪公司公会“水更深”">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/201.html" title="揭秘网络主播背后那群人：经纪公司公会“水更深”">揭秘网络主播背后那群人：经纪公司公会“水更深”</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=201"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/201.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>　　网络直播平台被调查、网络主播被封号如今已不是什么新闻。在监管力度不断加强的当下，网络主播、直播平台成为社会公认的监督对象，但是，在网络直播江湖，还有一群人藏的很深，但影响不小，这就是所谓的网络主播经纪公司及公会。网络主播经纪公司、公会是怎样运作的？《法制日报》记者进行了</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/200.html" title="工商总局：今年一季度网络购物投诉同比增长42.8%" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7c978900f9193ba7f23af013e4a99269.jpg" alt="工商总局：今年一季度网络购物投诉同比增长42.8%">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/200.html" title="工商总局：今年一季度网络购物投诉同比增长42.8%">工商总局：今年一季度网络购物投诉同比增长42.8%</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=200"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/200.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>【摘要】 国家工商总局今天发布今年一季度消费投诉分析显示,全国工商和市场监管部门受理消费投诉40.2万件,同比增长16.3%。从地域看,主要集中于大型电商平台、网商集中的浙江(3.44万件)、北京(1.64万件)和广东(0.60万件),三省市投诉量占全国网络购物投诉总量的93.9%。
+国家工商总局</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/199.html" title="网聚正能量，岂容“黄毒”横行网络" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/fee5f90aa7c82ebbd5416b166c369f4a.jpg" alt="网聚正能量，岂容“黄毒”横行网络">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/199.html" title="网聚正能量，岂容“黄毒”横行网络">网聚正能量，岂容“黄毒”横行网络</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=199"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/199.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>近日，由国家网信办指导，中国互联网发展基金会主办，五家中央重点新闻网站承办，部分主要商业网站参与协办的2016年度五个一百网络正能量精品评选活动正式拉开大幕。
+
+　　本届五个一百网络正能量精品评选活动的主题是网聚正能量，共绘同心圆，体现着全社会对于互联网释放更多正能量的期待。
+
+</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/181.html" title="携手特斯拉，是否能让腾讯深入智能汽车行业？" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/3ea7203ab54881ca68647968ed0804f9.jpg" alt="携手特斯拉，是否能让腾讯深入智能汽车行业？">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/181.html" title="携手特斯拉，是否能让腾讯深入智能汽车行业？">携手特斯拉，是否能让腾讯深入智能汽车行业？</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-05</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=181"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/181.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>2017年3月17日，特斯拉宣布通过定增和公开市场收购的方式，以217.67美元的价格，将5%的股份出售给腾讯。
+
+导语：智能汽车行业颠覆传统汽车行业的关键期已至，全球科技、汽车行业巨头均在通过着力发展技术、投资并购等手段，抢占智能汽车行业的第一梯队。近日，腾讯也通过投资收购部分特斯拉股票，</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/hulianwang/180.html" title="不看好三星Galaxy S8在中国市场表现的三点理由" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/5f7e423ebe4f5bd4c010557431671813.jpg" alt="不看好三星Galaxy S8在中国市场表现的三点理由">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/hulianwang/180.html" title="不看好三星Galaxy S8在中国市场表现的三点理由">不看好三星Galaxy S8在中国市场表现的三点理由</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-05</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=8&id=180"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/hulianwang/180.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>中国市场，天时、地利和人和，这几点都对三星Galaxy S8很不利。对于三星来说，在Note7上犯下的错误总是要还的，怎么还，在Galaxy S8的销量上还是一种还法！
+
+据说，三星Galaxy  S8新品发布本来早就要开的，但因为一些原因还是推迟了。终于，在北京时间2017年3月29日的深夜，三星在美国纽约举行了S8的发</p>
+  </div>
+  <div class="clear"></div>
+</article></div>
+        <!-- pagination -->
+        <div class="clear"> </div>
+        <div class="page5"></div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'55%'},50); 
+</script>
+      <div class="f8f482afb85e4ded"></div>
+      <div id="sidebar" class="clr"> 
+        <script src="/e/member/login/loginjsc.php"></script>
+        <div id="enhancedtextwidget-10" class="widget widget_text enhanced-text-widget">
+<div class="textwidget widget-text">
+
+<a href="#" target="_blank">
+<img src="/skin/ecms802/img/a01.png" alt="购买主题"/></a>
+
+</div></div>        <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="推荐文章"><i class="fa fa-thumbs-up"></i><span>推荐文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/jiaju/143.html" title="搬家很方便，THE CRATES箱式家具">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/0e684ba3435a2afc2fb8aa34575a1fc4.jpg" alt="搬家很方便，THE CRATES箱式家具" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/jiaju/143.html" rel="bookmark" title="搬家很方便，THE CRATES箱式家具">搬家很方便，THE CRATES箱式家具</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhichang/141.html" title="别老意淫能挣多少钱，做好职业生涯规">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/dc5e710e98cc9949620097cb5a17c80e.jpg" alt="别老意淫能挣多少钱，做好职业生涯规" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhichang/141.html" rel="bookmark" title="别老意淫能挣多少钱，做好职业生涯规">别老意淫能挣多少钱，做好职业生涯规</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhijia/146.html" title="特斯拉新款车型 70D ，续航力386公里">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ba9c8123e7c650cb6f33327a38aae5aa.jpg" alt="特斯拉新款车型 70D ，续航力386公里" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhijia/146.html" rel="bookmark" title="特斯拉新款车型 70D ，续航力386公里">特斯拉新款车型 70D ，续航力386公里</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/131.html" title="5000万买来的27条教训：4年从打工仔">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7272490a21160d52295b62d67dddc345.jpg" alt="5000万买来的27条教训：4年从打工仔" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/131.html" rel="bookmark" title="5000万买来的27条教训：4年从打工仔">5000万买来的27条教训：4年从打工仔</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/135.html" title="创业路上总是忙不过来？问问自己这6">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d3f8030d403562efdeaf022c43a67b87.jpg" alt="创业路上总是忙不过来？问问自己这6" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/135.html" rel="bookmark" title="创业路上总是忙不过来？问问自己这6">创业路上总是忙不过来？问问自己这6</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="头条文章"><i class="fa fa-thumbs-up"></i><span>头条文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/114.html" title="和宝宝共享美丽风景：Longboardstrol">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7c6f27485ae1414fa79d5036b6bcef4b.jpg" alt="和宝宝共享美丽风景：Longboardstrol" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/114.html" rel="bookmark" title="和宝宝共享美丽风景：Longboardstrol">和宝宝共享美丽风景：Longboardstrol</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/115.html" title="3D液态石油 type 5 潜水腕表">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/44e213468153ff83f7f158e54c9f6046.jpg" alt="3D液态石油 type 5 潜水腕表" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/115.html" rel="bookmark" title="3D液态石油 type 5 潜水腕表">3D液态石油 type 5 潜水腕表</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/shijue/113.html" title="平面设计师必知的留白气质与技巧！">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/160a206c2d270cb00e7648d727dbfc88.jpg" alt="平面设计师必知的留白气质与技巧！" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/shijue/113.html" rel="bookmark" title="平面设计师必知的留白气质与技巧！">平面设计师必知的留白气质与技巧！</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/shijue/" rel="category tag">视觉</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/97.html" title="10000+的秘密：别人的文章为什么那么">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/360edf71d31442c87e5ab4f75968ff93.jpg" alt="10000+的秘密：别人的文章为什么那么" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/97.html" rel="bookmark" title="10000+的秘密：别人的文章为什么那么">10000+的秘密：别人的文章为什么那么</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/101.html" title="如何1天内做到1500万App曝光20万下">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/bdd39eba8c03f97339538553ff020883.jpg" alt="如何1天内做到1500万App曝光20万下" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/101.html" rel="bookmark" title="如何1天内做到1500万App曝光20万下">如何1天内做到1500万App曝光20万下</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/guanli/105.html" title="成功的CEO如何打造一支优秀的团队？">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/2e2ebfbfb796032a147ce73a959d33db.jpg" alt="成功的CEO如何打造一支优秀的团队？" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/guanli/105.html" rel="bookmark" title="成功的CEO如何打造一支优秀的团队？">成功的CEO如何打造一支优秀的团队？</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/guanli/" rel="category tag">管理</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div class="floatwidget-container"> </div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'78%'},50);  
+</script></div>
+    <div class="clear"></div>
+  </div>
+  <div id="bottom-banner" class="banner">
+    <div class="container"> </div>
+  </div>
+  <footer id="footer-nav-wrap">
+    <div id="footer-nav" class="layout-wrap">
+      <div id="footer-nav-left">
+        <div id="footermenu" class="menu-footer-container">
+          <ul id="footer-nav-links" class="footermenu">
+            <li id="menu-item" class="menu-item"><a href="http://news.baidu.com/">百度新闻</a></li>
+<li id="menu-item" class="menu-item"><a href="http://news.sina.com.cn/">新浪新闻</a></li>
+          </ul>
+        </div>
+        <div id="footer-copyright">&copy; 2016
+          h5新闻网站          &nbsp;
+          
+<!-- 统计代码 -->
+<script type='text/javascript' src='/tongji.js'></script>
+<!-- 请改为自已的-->
+        </div>
+      </div>
+      <div id="footer-nav-right">
+        <div id="footer-links-icons">
+          	<span class="footer-aliyun-link">
+		<a href="https://www.aliyun.com" target="_blank" class="aliyun">
+			<span class="tinicon-aliyun"><i class="fa fa-cloud"></i></span>
+			<br>Aliyun
+		</a>
+	</span>
+	<span class="footer-sinaweibo-link">
+		<a href="http://weibo.com/11111111111" target="_blank" class="sinaweibo">
+			<span class="tinicon-sinaweibo"><i class="fa fa-weibo"></i></span>
+			<br>Weibo
+		</a>
+	</span>
+	 
+		<span class="footer-qq-link">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=1364831875&site=qq&menu=yes" target="_blank" class="qq">
+			<span class="tinicon-qq"><i class="fa fa-qq"></i></span>
+			<br>QQ
+		</a>
+	</span> 
+		<span class="footer-newsletter-link">
+		<a href="mailto:00000@163.com" target="_blank" class="Email">
+			<span class="tinicon-newsletter"><i class="fa fa-envelope"></i></span>
+			<br>Email
+		</a>
+	</span>        </div>
+        <div class="clear clr"></div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'90%'},50); 
+</script>
+  </div>
+</section>
+<div class="floatbtn"> <span id="bdshare" class="bdshare_t mobile-hide"><a class="bds_more" href="#" data-cmd="more"></a></span>  <span id="back-to-top"><i class="fa fa-arrow-up"></i></span> </div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_sign_object = {"redirecturl":"","ajaxurl":" ","loadingmessage":""};
+var tin = {"ajax_url":" ","tin_url":"","Tracker":{"type":"home","pid":1},"uid":0}/* ]]> */
+</script> 
+<script src="/skin/ecms802/js/function.js"></script> 
+<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = " ";</script> 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+<div class="nmplaybar">
+  <div class="nmplayer-prosess"></div>
+  <div class="nmplayer-wrap">
+    <div class="nmplayer-info"><span class="nmplayer-title"></span><span class="nmplayer-time"></span><span class="nmplayer-lrc"></span></div>
+    <div class="nmplayer-control">
+      <ul>
+        <li> <a id="nmplayer-prev" href="javascript:;"> <span class="icon-previous fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-button" href="javascript:;"> <span class="icon-pause fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-next" href="javascript:;"> <span class="icon-next fxfont"></span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='/skin/ecms802/js/base.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/wp-embed.min.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/theme.min.js?ver=2016.12.21'></script> 
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'100%'},50); 
+</script>
+</body>
+</html>

@@ -1,0 +1,628 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>游戏-h5新闻网站</title>
+<meta name="keywords" content="游戏攻略" />
+<meta name="description" content="游戏攻略" />
+<script type='text/javascript' src='/e/data/js/ajax.js'></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/style.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/responsive.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/custom.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome.css"  media="all" />
+<style>
+article.product .tips {
+	display: none;
+}
+</style>
+<link rel='stylesheet' id='nm-css'  href='/skin/ecms802/css/style2.css?ver=2016.12.21' type='text/css' media='all' />
+<script type='text/javascript' src='/skin/ecms802/js/jquery-1.10.2.min.js?ver=2016.12.21'></script>
+<!--[if lt IE 9]>
+<script src="/skin/ecms802/js/html5.js"></script>
+<script src="/skin/ecms802/js/css3-mediaqueries.js"></script>
+<script src="/skin/ecms802/js/PIE_IE678.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/iefix.css"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome-ie7.min.css"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="/skin/ecms802/js/kill-IE6.js"></script>
+<![endif]-->
+</head>
+<body id="wrap" class="home blog" style="background:#ffffff; ">
+<div id="body-container">
+<aside id="navmenu-mobile">
+  <div id="navmenu-mobile-wraper">
+    <div class="mobile-login-field">
+      <div id="login-box-mobile">
+        <div class="login-box-mobile-form"> 
+          <script src="/e/member/login/loginjsm.php"></script></div>
+      </div>
+    </div>
+    <ul id="menu-mobile" class="menu-mobile">
+            <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>    </ul>
+  </div>
+</aside>
+<section id="content-container">
+  <header class="header-wrap" id="nav-scroll">
+    <div class="nav-wrap">
+      <div class="logo"> <a href="/" alt="h5新闻网站" id="logo" > <img src="/skin/ecms802/img/logo.png"> </a> </div>
+      <div class="toggle-menu"> <i class="fa fa-bars"></i> </div>
+      <div class="search-btn-click"> <i class="fa fa-search"></i> </div>
+      <div id="login-reg"> 
+        <script src="/e/member/login/loginjsd.php"></script> 
+      </div>
+      <div id="focus-us">
+关注我们<div id="focus-slide" class="ie_pie">
+<div class="focus-title">关注我们</div>
+<p class="focus-content">
+		<a href="http://weibo.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-weibo"></i>新浪微博</span></a>
+		<a href="http://t.qq.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-tencent-weibo"></i>腾讯微博</span></a>
+</p>
+</div></div>
+
+<!--  请改为自己的，或者 “不写入缓存” 就关闭了  -->      <nav id="pri-nav" class="site-navigation pri-nav elan_menu" role="navigation">
+        <div class="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95-container">
+          <ul id="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95" class="nav-menu">
+                  <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>                      </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="clr"></div>
+    <div class="site_loading"></div>
+    <div class="header-search-slide" style="display: none;">
+      <form onsubmit="return checkSearchForm()" method="post" id="searchform" class="searchform" action="/e/search/index.php" role="search">
+        <input type="hidden" value="title" name="show">
+        <input type="hidden" value="1" name="tempid">
+        <input type="hidden" value="news" name="tbname">
+        <input name="mid" value="1" type="hidden">
+        <input type="search" class="field" name="keyboard" value="" placeholder="输入关键词并回车" required>
+        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <div class="hidefixnav"></div>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'33%'},50); 
+</script>
+  <div class="breadcrumbs">
+    <div class="container clr">
+      <div id="breadcrumbs">
+        <h1><i class="fa fa-folder-open"></i>游戏</h1>
+        <div class="breadcrumbs-text"><a href="http://localhost/">首页</a>&nbsp;>&nbsp;<a href="http://localhost/news/">资讯</a>&nbsp;>&nbsp;<a href="http://localhost/news/youxi/">游戏</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrap">
+    <div id="home-blog-wrap" class="container two-col-container">
+      <div id="main-wrap-left">
+        <div class="bloglist-container clr">
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/198.html" title="代表热血《叛逆性百万亚瑟王》铁拳亚瑟解禁" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/bde35ff5bf1bee7032a01b1dd3f7691b.jpg" alt="代表热血《叛逆性百万亚瑟王》铁拳亚瑟解禁">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/198.html" title="代表热血《叛逆性百万亚瑟王》铁拳亚瑟解禁">代表热血《叛逆性百万亚瑟王》铁拳亚瑟解禁</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=198"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/198.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>我们即刻冲入敌营吧，不管是怎样的对手都没啥好怕的！喂&amp;mdash;&amp;mdash;对面的！尽管放马过来&amp;mdash;&amp;mdash;！如果在战斗中遇到这样一位队友，是该欢喜还是忧愁呢？虽然勇气可嘉但总有些不安啊&amp;hellip;&amp;hellip;你一定会有这样的感受吧。而这样的场景，正是《叛逆性百万亚瑟王》今日公开的亚瑟主角</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/197.html" title="《我的世界》将迎来重大更新 推出游戏内置商城" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/df07c435e8395555d6fba477160d38be.jpg" alt="《我的世界》将迎来重大更新 推出游戏内置商城">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/197.html" title="《我的世界》将迎来重大更新 推出游戏内置商城">《我的世界》将迎来重大更新 推出游戏内置商城</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=197"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/197.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>【17173专稿，转载请注明出处】
+《我的世界（Minecraft）》探索更新即将登场，本次MCPE/Win 10 1.1(探索更新/Discovery  Update)将会有无数的秘密等待你发掘！你可以按照制图师们的地图追踪神秘战利品；勇闯邪恶的森林古堡进行探险；利用永恒图腾开启一段揭开生命面纱的旅程&amp;hellip;&amp;hellip;而这</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/196.html" title="电子游戏《湛蓝深海》落定永乐国际PT平台掀湛蓝风暴" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/871fdc386873f0ed53ce0f10f4b91edc.jpg" alt="电子游戏《湛蓝深海》落定永乐国际PT平台掀湛蓝风暴">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/196.html" title="电子游戏《湛蓝深海》落定永乐国际PT平台掀湛蓝风暴">电子游戏《湛蓝深海》落定永乐国际PT平台掀湛蓝风暴</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=196"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/196.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>心提示：对于喜欢游戏的玩家而言，总是能够从五花八门、眼花缭乱的电子游戏中一眼就能看出哪个才是想要的，这些催动优质游戏脱颖而出的关键，便在于其带来的游戏体验度和对于玩家的回报率了。相信每一个线上电子游戏的火热也并非偶然，而且其这两点息息相关，因而永乐国际打造的《湛蓝深海》PT</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/195.html" title="什么样的游戏剧情是最好的？小岛秀夫领衔为你揭秘" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/cf8fb54f4aff445517e4e07e23300a89.jpg" alt="什么样的游戏剧情是最好的？小岛秀夫领衔为你揭秘">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/195.html" title="什么样的游戏剧情是最好的？小岛秀夫领衔为你揭秘">什么样的游戏剧情是最好的？小岛秀夫领衔为你揭秘</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=195"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/195.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>　游戏的剧情一直是玩家们讨论的重点，不同的游戏带来了不同的故事，而因为游戏本身媒介的不同，其讲述故事的方法同电影、电视等传统媒介有所差异，而由陈星汉和小岛秀夫等多名游戏制作人为大家带来了在游戏制作过程中剧情背后的故事。中文字幕由游民星空字幕组提供。
+游戏剧情背后的故事：
+</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/194.html" title=" 玩游戏学英语" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/b328adb01fdd457224915db3b502463b.jpg" alt=" 玩游戏学英语">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/194.html" title=" 玩游戏学英语"> 玩游戏学英语</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=194"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/194.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>                                                       
+日前，临汾市红丝带学校，山西师范大学外国语学院的青年志愿者和校长郭小平与孩子们一起翻花绳。当日，情系红丝带，每周一课周末英语课堂开讲，11名志愿者在每个周末以英语情景剧、学唱英语歌等趣味教学方式，结合游戏环节，培养孩子们</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/193.html" title="寻踪龙泉《不良人2》手游全新版本震撼上线" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/f8e30b61179eca82b4395feb705f580a.jpg" alt="寻踪龙泉《不良人2》手游全新版本震撼上线">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/193.html" title="寻踪龙泉《不良人2》手游全新版本震撼上线">寻踪龙泉《不良人2》手游全新版本震撼上线</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=193"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/193.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>人气国漫3D武侠动作手游《不良人2》全新大版本龙泉宝藏即将于近日正式登陆各大下载平台！此次云畅游戏携手若森数字精心打磨的大型新版本将会为各位侠士呈现更多精彩：跌宕起伏的番外剧情与你重温爱恨情仇，超凡出世的人气侠客再现指尖侠骨柔情，更有跨服混战的龙泉夺宝新玩法一触即发！最华</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/192.html" title="B站UP主安利 《全职高手》手游特色曝光" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/f1b9114b423b2d3dc3befd700595f181.jpg" alt="B站UP主安利 《全职高手》手游特色曝光">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/192.html" title="B站UP主安利 《全职高手》手游特色曝光">B站UP主安利 《全职高手》手游特色曝光</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=192"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/192.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>竞技达人，激战荣耀！ 《全职高手》动画已经火热开播，各位全职er内心肯定是灰常激动的。目前《全职高手》官方授权正版手游也正在火热预注册中，四大游戏特色劲爆抢先看，就连知名UP主中二少年晓凯也按捺不住内心的躁动，打破次元壁，加入到全职高手中。
+                                      </p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/179.html" title="王祖蓝神探体质再现 《胜利的游戏》剧情大反转" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/c1b4756dd91ec27e44cb3bbea4cae0be.jpg" alt="王祖蓝神探体质再现 《胜利的游戏》剧情大反转">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/179.html" title="王祖蓝神探体质再现 《胜利的游戏》剧情大反转">王祖蓝神探体质再现 《胜利的游戏》剧情大反转</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-05</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=179"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/179.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>由优酷、亚歌文化、王祖蓝工作室（手工艺创作）联合制作的全明星剧情互动推理综艺《胜利的游戏》自开播以来收视率日日飙升，节目上线四期播放量已突破一亿，获得了广大网友的一致好评，不难看出推理&amp;times;综艺&amp;times;直播的跨界风暴正席卷整个综艺圈。
+据悉，在4月6日即将上线的第五期节目死</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/178.html" title="金刚游戏2016年业绩爆发 盈利7296.49万元" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d6b961f95f417c740511b957a1765a92.png" alt="金刚游戏2016年业绩爆发 盈利7296.49万元">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/178.html" title="金刚游戏2016年业绩爆发 盈利7296.49万元">金刚游戏2016年业绩爆发 盈利7296.49万元</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-05</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=178"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/178.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>　3月31日金刚游戏（430092  公告, 行情, 点评, 财报, 圈子）公布2016年度报告。
+
+根据该年报显示，2016年金刚游戏实现营业收入1.92亿元，同比增长169.64%；归属于挂牌公司股东的净利润为7296.49万元，同比增长145.73%。截至2016年12月31日，金刚游戏资产总计5.29亿元，同比增长149.24%；归属于挂牌</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/youxi/177.html" title=" 优酷超级剧集《长安十二时辰》亮相戛纳 将打通电影游戏音乐等IP全生态链" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/db15f169ad5dba900b9265efaede0ff1.jpg" alt=" 优酷超级剧集《长安十二时辰》亮相戛纳 将打通电影游戏音乐等IP全生态链">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/youxi/177.html" title=" 优酷超级剧集《长安十二时辰》亮相戛纳 将打通电影游戏音乐等IP全生态链"> 优酷超级剧集《长安十二时辰》亮相戛纳 将打通电影游戏音乐等IP全生态链</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/youxi/" rel="category tag">游戏</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-05</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=2&id=177"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/youxi/177.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>（原标题：优酷超级剧集《长安十二时辰》亮相戛纳 将打通电影游戏音乐等IP全生态链）
+4月3日至6日，由优酷、微影时代、留白影视、娱跃影业与仨仁文化联手打造的超级剧集《长安十二时辰》亮相2017法国戛纳电视节。
+戛纳电视节是世界最大、最著名、也是最有影响力的视听与数字内容交易会，   </p>
+  </div>
+  <div class="clear"></div>
+</article></div>
+        <!-- pagination -->
+        <div class="clear"> </div>
+        <div class="page5"></div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'55%'},50); 
+</script>
+      <div class="f8f482afb85e4ded"></div>
+      <div id="sidebar" class="clr"> 
+        <script src="/e/member/login/loginjsc.php"></script>
+        <div id="enhancedtextwidget-10" class="widget widget_text enhanced-text-widget">
+<div class="textwidget widget-text">
+
+<a href="#" target="_blank">
+<img src="/skin/ecms802/img/a01.png" alt="购买主题"/></a>
+
+</div></div>        <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="推荐文章"><i class="fa fa-thumbs-up"></i><span>推荐文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/jiaju/143.html" title="搬家很方便，THE CRATES箱式家具">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/0e684ba3435a2afc2fb8aa34575a1fc4.jpg" alt="搬家很方便，THE CRATES箱式家具" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/jiaju/143.html" rel="bookmark" title="搬家很方便，THE CRATES箱式家具">搬家很方便，THE CRATES箱式家具</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhichang/141.html" title="别老意淫能挣多少钱，做好职业生涯规">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/dc5e710e98cc9949620097cb5a17c80e.jpg" alt="别老意淫能挣多少钱，做好职业生涯规" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhichang/141.html" rel="bookmark" title="别老意淫能挣多少钱，做好职业生涯规">别老意淫能挣多少钱，做好职业生涯规</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhijia/146.html" title="特斯拉新款车型 70D ，续航力386公里">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ba9c8123e7c650cb6f33327a38aae5aa.jpg" alt="特斯拉新款车型 70D ，续航力386公里" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhijia/146.html" rel="bookmark" title="特斯拉新款车型 70D ，续航力386公里">特斯拉新款车型 70D ，续航力386公里</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/131.html" title="5000万买来的27条教训：4年从打工仔">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7272490a21160d52295b62d67dddc345.jpg" alt="5000万买来的27条教训：4年从打工仔" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/131.html" rel="bookmark" title="5000万买来的27条教训：4年从打工仔">5000万买来的27条教训：4年从打工仔</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/135.html" title="创业路上总是忙不过来？问问自己这6">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d3f8030d403562efdeaf022c43a67b87.jpg" alt="创业路上总是忙不过来？问问自己这6" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/135.html" rel="bookmark" title="创业路上总是忙不过来？问问自己这6">创业路上总是忙不过来？问问自己这6</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="头条文章"><i class="fa fa-thumbs-up"></i><span>头条文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/114.html" title="和宝宝共享美丽风景：Longboardstrol">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7c6f27485ae1414fa79d5036b6bcef4b.jpg" alt="和宝宝共享美丽风景：Longboardstrol" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/114.html" rel="bookmark" title="和宝宝共享美丽风景：Longboardstrol">和宝宝共享美丽风景：Longboardstrol</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/115.html" title="3D液态石油 type 5 潜水腕表">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/44e213468153ff83f7f158e54c9f6046.jpg" alt="3D液态石油 type 5 潜水腕表" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/115.html" rel="bookmark" title="3D液态石油 type 5 潜水腕表">3D液态石油 type 5 潜水腕表</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/shijue/113.html" title="平面设计师必知的留白气质与技巧！">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/160a206c2d270cb00e7648d727dbfc88.jpg" alt="平面设计师必知的留白气质与技巧！" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/shijue/113.html" rel="bookmark" title="平面设计师必知的留白气质与技巧！">平面设计师必知的留白气质与技巧！</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/shijue/" rel="category tag">视觉</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/97.html" title="10000+的秘密：别人的文章为什么那么">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/360edf71d31442c87e5ab4f75968ff93.jpg" alt="10000+的秘密：别人的文章为什么那么" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/97.html" rel="bookmark" title="10000+的秘密：别人的文章为什么那么">10000+的秘密：别人的文章为什么那么</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/101.html" title="如何1天内做到1500万App曝光20万下">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/bdd39eba8c03f97339538553ff020883.jpg" alt="如何1天内做到1500万App曝光20万下" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/101.html" rel="bookmark" title="如何1天内做到1500万App曝光20万下">如何1天内做到1500万App曝光20万下</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/guanli/105.html" title="成功的CEO如何打造一支优秀的团队？">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/2e2ebfbfb796032a147ce73a959d33db.jpg" alt="成功的CEO如何打造一支优秀的团队？" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/guanli/105.html" rel="bookmark" title="成功的CEO如何打造一支优秀的团队？">成功的CEO如何打造一支优秀的团队？</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/guanli/" rel="category tag">管理</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div class="floatwidget-container"> </div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'78%'},50);  
+</script></div>
+    <div class="clear"></div>
+  </div>
+  <div id="bottom-banner" class="banner">
+    <div class="container"> </div>
+  </div>
+  <footer id="footer-nav-wrap">
+    <div id="footer-nav" class="layout-wrap">
+      <div id="footer-nav-left">
+        <div id="footermenu" class="menu-footer-container">
+          <ul id="footer-nav-links" class="footermenu">
+            <li id="menu-item" class="menu-item"><a href="http://news.baidu.com/">百度新闻</a></li>
+<li id="menu-item" class="menu-item"><a href="http://news.sina.com.cn/">新浪新闻</a></li>
+          </ul>
+        </div>
+        <div id="footer-copyright">&copy; 2016
+          h5新闻网站          &nbsp;
+          
+<!-- 统计代码 -->
+<script type='text/javascript' src='/tongji.js'></script>
+<!-- 请改为自已的-->
+        </div>
+      </div>
+      <div id="footer-nav-right">
+        <div id="footer-links-icons">
+          	<span class="footer-aliyun-link">
+		<a href="https://www.aliyun.com" target="_blank" class="aliyun">
+			<span class="tinicon-aliyun"><i class="fa fa-cloud"></i></span>
+			<br>Aliyun
+		</a>
+	</span>
+	<span class="footer-sinaweibo-link">
+		<a href="http://weibo.com/11111111111" target="_blank" class="sinaweibo">
+			<span class="tinicon-sinaweibo"><i class="fa fa-weibo"></i></span>
+			<br>Weibo
+		</a>
+	</span>
+	 
+		<span class="footer-qq-link">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=1364831875&site=qq&menu=yes" target="_blank" class="qq">
+			<span class="tinicon-qq"><i class="fa fa-qq"></i></span>
+			<br>QQ
+		</a>
+	</span> 
+		<span class="footer-newsletter-link">
+		<a href="mailto:00000@163.com" target="_blank" class="Email">
+			<span class="tinicon-newsletter"><i class="fa fa-envelope"></i></span>
+			<br>Email
+		</a>
+	</span>        </div>
+        <div class="clear clr"></div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'90%'},50); 
+</script>
+  </div>
+</section>
+<div class="floatbtn"> <span id="bdshare" class="bdshare_t mobile-hide"><a class="bds_more" href="#" data-cmd="more"></a></span>  <span id="back-to-top"><i class="fa fa-arrow-up"></i></span> </div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_sign_object = {"redirecturl":"","ajaxurl":" ","loadingmessage":""};
+var tin = {"ajax_url":" ","tin_url":"","Tracker":{"type":"home","pid":1},"uid":0}/* ]]> */
+</script> 
+<script src="/skin/ecms802/js/function.js"></script> 
+<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = " ";</script> 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+<div class="nmplaybar">
+  <div class="nmplayer-prosess"></div>
+  <div class="nmplayer-wrap">
+    <div class="nmplayer-info"><span class="nmplayer-title"></span><span class="nmplayer-time"></span><span class="nmplayer-lrc"></span></div>
+    <div class="nmplayer-control">
+      <ul>
+        <li> <a id="nmplayer-prev" href="javascript:;"> <span class="icon-previous fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-button" href="javascript:;"> <span class="icon-pause fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-next" href="javascript:;"> <span class="icon-next fxfont"></span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='/skin/ecms802/js/base.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/wp-embed.min.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/theme.min.js?ver=2016.12.21'></script> 
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'100%'},50); 
+</script>
+</body>
+</html>

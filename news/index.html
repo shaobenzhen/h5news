@@ -1,0 +1,773 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>资讯-h5新闻网站</title>
+<meta name="keywords" content="业界资讯" />
+<meta name="description" content="业界资讯" />
+<script type='text/javascript' src='/e/data/js/ajax.js'></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/style.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/responsive.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/custom.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome.css"  media="all" />
+<style>
+article.product .tips {
+	display: none;
+}
+</style>
+<link rel='stylesheet' id='nm-css'  href='/skin/ecms802/css/style2.css?ver=2016.12.21' type='text/css' media='all' />
+<script type='text/javascript' src='/skin/ecms802/js/jquery-1.10.2.min.js?ver=2016.12.21'></script>
+<!--[if lt IE 9]>
+<script src="/skin/ecms802/js/html5.js"></script>
+<script src="/skin/ecms802/js/css3-mediaqueries.js"></script>
+<script src="/skin/ecms802/js/PIE_IE678.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/iefix.css"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome-ie7.min.css"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="/skin/ecms802/js/kill-IE6.js"></script>
+<![endif]-->
+</head>
+<body id="wrap" class="home blog" style="background:#ffffff; ">
+<div id="body-container">
+<aside id="navmenu-mobile">
+  <div id="navmenu-mobile-wraper">
+    <div class="mobile-login-field">
+      <div id="login-box-mobile">
+        <div class="login-box-mobile-form"> 
+          <script src="/e/member/login/loginjsm.php"></script></div>
+      </div>
+    </div>
+    <ul id="menu-mobile" class="menu-mobile">
+            <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>    </ul>
+  </div>
+</aside>
+<section id="content-container">
+  <header class="header-wrap" id="nav-scroll">
+    <div class="nav-wrap">
+      <div class="logo"> <a href="/" alt="h5新闻网站" id="logo" > <img src="/skin/ecms802/img/logo.png"> </a> </div>
+      <div class="toggle-menu"> <i class="fa fa-bars"></i> </div>
+      <div class="search-btn-click"> <i class="fa fa-search"></i> </div>
+      <div id="login-reg"> 
+        <script src="/e/member/login/loginjsd.php"></script> 
+      </div>
+      <div id="focus-us">
+关注我们<div id="focus-slide" class="ie_pie">
+<div class="focus-title">关注我们</div>
+<p class="focus-content">
+		<a href="http://weibo.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-weibo"></i>新浪微博</span></a>
+		<a href="http://t.qq.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-tencent-weibo"></i>腾讯微博</span></a>
+</p>
+</div></div>
+
+<!--  请改为自己的，或者 “不写入缓存” 就关闭了  -->      <nav id="pri-nav" class="site-navigation pri-nav elan_menu" role="navigation">
+        <div class="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95-container">
+          <ul id="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95" class="nav-menu">
+                  <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>                      </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="clr"></div>
+    <div class="site_loading"></div>
+    <div class="header-search-slide" style="display: none;">
+      <form onsubmit="return checkSearchForm()" method="post" id="searchform" class="searchform" action="/e/search/index.php" role="search">
+        <input type="hidden" value="title" name="show">
+        <input type="hidden" value="1" name="tempid">
+        <input type="hidden" value="news" name="tbname">
+        <input name="mid" value="1" type="hidden">
+        <input type="search" class="field" name="keyboard" value="" placeholder="输入关键词并回车" required>
+        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <div class="hidefixnav"></div>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'33%'},50); 
+</script>
+  <div class="breadcrumbs">
+    <div class="container clr">
+      <div id="breadcrumbs">
+        <h1><i class="fa fa-folder-open"></i>资讯</h1>
+        <div class="breadcrumbs-text"><a href="http://localhost/">首页</a>&nbsp;>&nbsp;<a href="http://localhost/news/">资讯</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrap">
+    <div id="home-blog-wrap" class="container two-col-container">
+      <div id="main-wrap-left">
+        <div class="bloglist-container clr">
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/238.html" title="从图片电商到图片媒体，全景图片打算这样诠释视觉内容价值的最大化" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/209e2651225d6236ebf971816d68c508.jpg" alt="从图片电商到图片媒体，全景图片打算这样诠释视觉内容价值的最大化">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/238.html" title="从图片电商到图片媒体，全景图片打算这样诠释视觉内容价值的最大化">从图片电商到图片媒体，全景图片打算这样诠释视觉内容价值的最大化</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=238"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/238.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>近日，国内图片社区和交易网站全景图片宣布旗下产品全面升级，意欲通过多元视觉打造图片应用新平台。
+
+据了解，新版的全景 app 覆盖了用户日常的衣食住行，在用户阅读体验方面其推出了瀑布流的方式，并增加了 10s 段视频内容服务。此外，全景图片还在原有的产品基础上进一步细分了用户兴趣，以便</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/237.html" title="武汉大三男生求婚大四学姐：给她一个安定的未来(图)" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/e7dc21ada427b2e1b7676eab858f68d6.jpg" alt="武汉大三男生求婚大四学姐：给她一个安定的未来(图)">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/237.html" title="武汉大三男生求婚大四学姐：给她一个安定的未来(图)">武汉大三男生求婚大四学姐：给她一个安定的未来(图)</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=237"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/237.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>                                 
+                                 
+湖北日报网消息（记者 安立 实习生 孙鑫鑫）让毕业季不是分手季，3月25号晚上19点，在武汉科技大学主教学楼前空地上，用彩灯拼成的两颗爱心图案和Marry me字样醒目闪烁，该校大三男生廖灿辉正式向大四学姐张舒林求婚。据</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/236.html" title="媒体与设计学院召开2017届研究生优秀毕业生座谈会" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/92fa3bb9b4df3ebc2949f1c8fa87045b.jpg" alt="媒体与设计学院召开2017届研究生优秀毕业生座谈会">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/236.html" title="媒体与设计学院召开2017届研究生优秀毕业生座谈会">媒体与设计学院召开2017届研究生优秀毕业生座谈会</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=236"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/236.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>3月8日中午，媒体与设计学院2017届研究生优秀毕业生座谈会在媒设学院大楼B205召开。媒体与设计学院党委副书记李春梅、学生办思政教师以及2017届研究生优秀毕业生出席了本次会议。在李春梅的主持下，在座的各位毕业生就学院建设、学科发展、校园生活、求职就业等各方面踊跃发言，并提出中</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/235.html" title="团战新玩法 《全民奇迹MU》战盟联赛地图解析" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/046af3e6328e1965a7b0a168cb669868.jpg" alt="团战新玩法 《全民奇迹MU》战盟联赛地图解析">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/235.html" title="团战新玩法 《全民奇迹MU》战盟联赛地图解析">团战新玩法 《全民奇迹MU》战盟联赛地图解析</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=235"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/235.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>游戏兵工厂新闻报道：       
+
+
+    鲜血与雷鸣，力量与荣耀，随着《全民奇迹MU》第一赛季战盟联赛的潜力新星赛进入尾声阶段，超级黄金联赛八强战盟已经诞生，这一新兴的移动电竞赛事在受到了千万玩家们关注和热议的同时，也有越来越多的新朋友们因此踏上了奇迹大陆的冒险闯荡之旅。那么，作为近</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/234.html" title="满载危化品的槽罐车高速上倒车" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/22d84bfc5a004fa99c47fb50f1d528a7.jpg" alt="满载危化品的槽罐车高速上倒车">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/234.html" title="满载危化品的槽罐车高速上倒车">满载危化品的槽罐车高速上倒车</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=234"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/234.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>楚天都市报讯楚天都市报讯（记者吴昌华通讯员严慧冰谢王莹实习生邱楚阳）满载易爆有毒化学品的大型槽罐车，竟然在高速公路上倒车，与一辆刹车不及的货车发生刮擦，顿时腾起白烟！昨日，省高警总队蔡甸大队对该车司机杨某一次扣18分，驾驶证降级。
+                                
+3月31日下午1时</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/233.html" title="押宝未来，中国互联网军团正全面勾勒印度版图" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ad5271db99971d68189b445b20a4846a.jpg" alt="押宝未来，中国互联网军团正全面勾勒印度版图">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/233.html" title="押宝未来，中国互联网军团正全面勾勒印度版图">押宝未来，中国互联网军团正全面勾勒印度版图</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=233"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/233.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>摘要：       中国军团正在押宝印度市场，这是不是跟二十多年前美国IT巨头布局中国市场的场景很像？现在去布局的，未必能赢在最后；但现在不去的，恐怕就要失去先机。
+
+背上行囊和我一起走，寻找那个失去的传说，不管到荒野还是去沙漠，一起旅行不会寂寞&amp;hellip;&amp;hellip;
+
+
+&amp;mdash;&amp;mdash;印度歌曲《</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/232.html" title="中央省级媒体聚焦下保“五强”书记胡云华" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d1768d8eff9c22c6ce317c2829f395fb.jpg" alt="中央省级媒体聚焦下保“五强”书记胡云华">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/232.html" title="中央省级媒体聚焦下保“五强”书记胡云华">中央省级媒体聚焦下保“五强”书记胡云华</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=232"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/232.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>
+
+中央省级媒体记者采访团观看图片展　　
+
+中央省级媒体记者采访团参观外景
+本网讯 王帆报道：3月28日，多家中央省级媒体组成的记者采访团专程来余，集中采访报道五强村党组织书记代表&amp;mdash;&amp;mdash;渝水区良山镇下保村党总支书记代表胡云华。
+当日，天空淅沥沥的下着小雨，但并没有阻挡采访</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/tumeiti/231.html" title="媒体融合的"常州模式":西太湖车展亟待突破" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/23898185c984ab6e8174b5f829eb0680.jpg" alt="媒体融合的"常州模式":西太湖车展亟待突破">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/tumeiti/231.html" title="媒体融合的"常州模式":西太湖车展亟待突破">媒体融合的"常州模式":西太湖车展亟待突破</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/tumeiti/" rel="category tag">图媒体</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=12&id=231"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/tumeiti/231.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>创新发展，转型升级，西太湖全媒体车展已成常州汽车第一展，这也是省内广电和报业车展资源的首次跨媒体融合&amp;mdash;&amp;mdash;
+西太湖车展，媒体融合的常州模式
+常报全媒体讯  2017年4月28日～5月2日，2017西太湖春季国际车展又将盛装亮相。西太湖春季国际车展由常州广播影视传媒集团、常州报业传</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/230.html" title="精密设备超限运输等问题圆满解决" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/218f6c4e0ef96586afb840f7335c640d.jpg" alt="精密设备超限运输等问题圆满解决">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/230.html" title="精密设备超限运输等问题圆满解决">精密设备超限运输等问题圆满解决</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=230"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/230.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>　本报讯（记者宋磊 通讯员邢奇）昨日，记者从武汉市千名局级干部联系服务千家企业（项目）活动办公室获悉，4月1日向社会公布的20个行政审批类问题的办理工作正在积极有序推进中，其中，公积金办理开户流程复杂、企业税务清算缓慢、企业精密设备超限运输等12个问题已基本解决，在建工程抵押办理流程</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/229.html" title=" KB4015217又惹麻烦：安装后部分设备出现黑屏状态" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/74ea53d091cc09680c39b74f89faf584.jpg" alt=" KB4015217又惹麻烦：安装后部分设备出现黑屏状态">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/229.html" title=" KB4015217又惹麻烦：安装后部分设备出现黑屏状态"> KB4015217又惹麻烦：安装后部分设备出现黑屏状态</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=229"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/229.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>摘要：本月补丁星期二活动中，四大Windows  10版本都获得了累积更新。尽管前期升级工作进展顺利，但部分周年更新用户反馈称在安装KB4015217中出现了一些问题。首先需要说明的是，KB4015217是面向Windows   10周年更新的累积更新，不仅包含BUG修复和后台性能调整，还有安全补丁等等。同此前遭遇</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/228.html" title=" 旅行路由器和物联网设备更易被入侵" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/09767f9e17fa12df71c5d0e29cb5bbcf.jpg" alt=" 旅行路由器和物联网设备更易被入侵">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/228.html" title=" 旅行路由器和物联网设备更易被入侵"> 旅行路由器和物联网设备更易被入侵</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=228"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/228.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>安全研究人员在上周的卡巴斯基实验室安全分析师峰会上讲到只需要20分钟，就可以让市场上最受欢迎的物联网设备被破解。对于旅行路由器，也就是我们常用的3G/4G路由器，攻击者可以向路由器发送短信，从而获取路由器的管理密码和WiFi密码等登录信息。而我们家中常用的智能摄像头，也很容易被黑</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/227.html" title=" 深高速回应：近期将安装计重设备" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/967c1d2c6029ba2386726832118b70c4.jpg" alt=" 深高速回应：近期将安装计重设备">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/227.html" title=" 深高速回应：近期将安装计重设备"> 深高速回应：近期将安装计重设备</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-13</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=227"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/227.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>
+4月10日晚11点40分左右，广深沿江高速福永入口处，交警设卡整治涉嫌超载的泥头车。南都记者刘有志摄
+
+4月10日，南都深圳读本报道。
+
+涉超载泥头车躲猫猫追踪
+南都讯记者李亚坤近日，南都记者连续两天在广深沿江高速福永入口蹲守，目击泥头车与交警玩躲猫猫。而高速公路管理方仅仅悬挂超载货</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/226.html" title="湖北枣阳市质监局深入排查特种设备安全隐患 明确两个重点 加大查处力度" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/910710ffa4e35fa26715a6d39a8ef9b5.jpg" alt="湖北枣阳市质监局深入排查特种设备安全隐患 明确两个重点 加大查处力度">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/226.html" title="湖北枣阳市质监局深入排查特种设备安全隐患 明确两个重点 加大查处力度">湖北枣阳市质监局深入排查特种设备安全隐患 明确两个重点 加大查处力度</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=226"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/226.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>为进一步提高湖北省枣阳市安全管理水平，促进企业落实安全生产主体责任，近日，湖北省枣阳市质监局全面下达《2017年特种设备使用单位监察工作计划》，全面深入排查治理特种设备各类事故隐患，力保特设安全。
+紧盯重点目标，抓好重点单位监管。结合枣阳市实际，明确两个重点，即：重点监控单位，包括医</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/225.html" title="良心！iOS 10.3.2公测版发布：苹果让老设备重生" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/0f67f1c7a6bd21bbfeb55035ff6bd97b.jpg" alt="良心！iOS 10.3.2公测版发布：苹果让老设备重生">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/225.html" title="良心！iOS 10.3.2公测版发布：苹果让老设备重生">良心！iOS 10.3.2公测版发布：苹果让老设备重生</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=225"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/225.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>对于手握iPhone 5、iPad 4等老设备的用户来说，你们终于可以愉快的升级新系统了。PS：可以确定iOS 10.3.2不会抛弃它们了....
+                    
+继昨天放出开发者内测版后，现在苹果正式推送了iOS 10.3.2的最新公测版，其中最关键的一点就是，提供了32位版本的镜像。
+                   </p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/224.html" title="东北最大能源项目二期开始设备安装" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/753ef50a4e365f9c51ccbe1955009cc3.jpg" alt="东北最大能源项目二期开始设备安装">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/224.html" title="东北最大能源项目二期开始设备安装">东北最大能源项目二期开始设备安装</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=224"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/224.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>                                                         
+中国经济网大连4月12日讯 (记者 苏大鹏)  4月12日,位于辽宁大连的红沿河核电站5号机组完成穹顶吊装,这标志着红沿河二期工程全面进入设备安装阶段。本次吊装的钢制穹顶直径37米,重140多吨,是核反应堆厂房的屋顶。核反应</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/news/shebei/223.html" title=" 辽宁红沿河核电二期进入设备安装阶段" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d77d1ffc479455aef7e77a7959081256.jpg" alt=" 辽宁红沿河核电二期进入设备安装阶段">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/news/shebei/223.html" title=" 辽宁红沿河核电二期进入设备安装阶段"> 辽宁红沿河核电二期进入设备安装阶段</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2017-04-12</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=11&id=223"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/news/shebei/223.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>                                                  
+                                                   红沿河核电站5号机组穹顶吊装完成。　何鹏　摄
+中新网大连4月12日电 (记者 杨毅)辽宁红沿河核电站5号机组12日上午完成穹顶吊装，这标志着东北最大能源项目&amp;mdash;&amp;mdash;红</p>
+  </div>
+  <div class="clear"></div>
+</article></div>
+        <!-- pagination -->
+        <div class="clear"> </div>
+        <div class="page5"><a title="Total record">&nbsp;<b>60</b> </a>&nbsp;&nbsp;&nbsp;<b>1</b>&nbsp;<a href="http://localhost/news/index_2.html">2</a>&nbsp;<a href="http://localhost/news/index_3.html">3</a>&nbsp;<a href="http://localhost/news/index_4.html">4</a>&nbsp;<a href="http://localhost/news/index_2.html">下一页</a>&nbsp;<a href="http://localhost/news/index_4.html">尾页</a></div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'55%'},50); 
+</script>
+      <div class="f8f482afb85e4ded"></div>
+      <div id="sidebar" class="clr"> 
+        <script src="/e/member/login/loginjsc.php"></script>
+        <div id="enhancedtextwidget-10" class="widget widget_text enhanced-text-widget">
+<div class="textwidget widget-text">
+
+<a href="#" target="_blank">
+<img src="/skin/ecms802/img/a01.png" alt="购买主题"/></a>
+
+</div></div>        <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="推荐文章"><i class="fa fa-thumbs-up"></i><span>推荐文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/jiaju/143.html" title="搬家很方便，THE CRATES箱式家具">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/0e684ba3435a2afc2fb8aa34575a1fc4.jpg" alt="搬家很方便，THE CRATES箱式家具" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/jiaju/143.html" rel="bookmark" title="搬家很方便，THE CRATES箱式家具">搬家很方便，THE CRATES箱式家具</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhichang/141.html" title="别老意淫能挣多少钱，做好职业生涯规">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/dc5e710e98cc9949620097cb5a17c80e.jpg" alt="别老意淫能挣多少钱，做好职业生涯规" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhichang/141.html" rel="bookmark" title="别老意淫能挣多少钱，做好职业生涯规">别老意淫能挣多少钱，做好职业生涯规</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhijia/146.html" title="特斯拉新款车型 70D ，续航力386公里">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ba9c8123e7c650cb6f33327a38aae5aa.jpg" alt="特斯拉新款车型 70D ，续航力386公里" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhijia/146.html" rel="bookmark" title="特斯拉新款车型 70D ，续航力386公里">特斯拉新款车型 70D ，续航力386公里</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/131.html" title="5000万买来的27条教训：4年从打工仔">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7272490a21160d52295b62d67dddc345.jpg" alt="5000万买来的27条教训：4年从打工仔" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/131.html" rel="bookmark" title="5000万买来的27条教训：4年从打工仔">5000万买来的27条教训：4年从打工仔</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/135.html" title="创业路上总是忙不过来？问问自己这6">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d3f8030d403562efdeaf022c43a67b87.jpg" alt="创业路上总是忙不过来？问问自己这6" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/135.html" rel="bookmark" title="创业路上总是忙不过来？问问自己这6">创业路上总是忙不过来？问问自己这6</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="头条文章"><i class="fa fa-thumbs-up"></i><span>头条文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/114.html" title="和宝宝共享美丽风景：Longboardstrol">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7c6f27485ae1414fa79d5036b6bcef4b.jpg" alt="和宝宝共享美丽风景：Longboardstrol" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/114.html" rel="bookmark" title="和宝宝共享美丽风景：Longboardstrol">和宝宝共享美丽风景：Longboardstrol</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/115.html" title="3D液态石油 type 5 潜水腕表">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/44e213468153ff83f7f158e54c9f6046.jpg" alt="3D液态石油 type 5 潜水腕表" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/115.html" rel="bookmark" title="3D液态石油 type 5 潜水腕表">3D液态石油 type 5 潜水腕表</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/shijue/113.html" title="平面设计师必知的留白气质与技巧！">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/160a206c2d270cb00e7648d727dbfc88.jpg" alt="平面设计师必知的留白气质与技巧！" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/shijue/113.html" rel="bookmark" title="平面设计师必知的留白气质与技巧！">平面设计师必知的留白气质与技巧！</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/shijue/" rel="category tag">视觉</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/97.html" title="10000+的秘密：别人的文章为什么那么">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/360edf71d31442c87e5ab4f75968ff93.jpg" alt="10000+的秘密：别人的文章为什么那么" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/97.html" rel="bookmark" title="10000+的秘密：别人的文章为什么那么">10000+的秘密：别人的文章为什么那么</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/101.html" title="如何1天内做到1500万App曝光20万下">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/bdd39eba8c03f97339538553ff020883.jpg" alt="如何1天内做到1500万App曝光20万下" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/101.html" rel="bookmark" title="如何1天内做到1500万App曝光20万下">如何1天内做到1500万App曝光20万下</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/guanli/105.html" title="成功的CEO如何打造一支优秀的团队？">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/2e2ebfbfb796032a147ce73a959d33db.jpg" alt="成功的CEO如何打造一支优秀的团队？" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/guanli/105.html" rel="bookmark" title="成功的CEO如何打造一支优秀的团队？">成功的CEO如何打造一支优秀的团队？</a></p>
+    <span class="tab-item-date">2017-04-05</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/guanli/" rel="category tag">管理</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div class="floatwidget-container"> </div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'78%'},50);  
+</script></div>
+    <div class="clear"></div>
+  </div>
+  <div id="bottom-banner" class="banner">
+    <div class="container"> </div>
+  </div>
+  <footer id="footer-nav-wrap">
+    <div id="footer-nav" class="layout-wrap">
+      <div id="footer-nav-left">
+        <div id="footermenu" class="menu-footer-container">
+          <ul id="footer-nav-links" class="footermenu">
+            <li id="menu-item" class="menu-item"><a href="http://news.baidu.com/">百度新闻</a></li>
+<li id="menu-item" class="menu-item"><a href="http://news.sina.com.cn/">新浪新闻</a></li>
+          </ul>
+        </div>
+        <div id="footer-copyright">&copy; 2016
+          h5新闻网站          &nbsp;
+          
+<!-- 统计代码 -->
+<script type='text/javascript' src='/tongji.js'></script>
+<!-- 请改为自已的-->
+        </div>
+      </div>
+      <div id="footer-nav-right">
+        <div id="footer-links-icons">
+          	<span class="footer-aliyun-link">
+		<a href="https://www.aliyun.com" target="_blank" class="aliyun">
+			<span class="tinicon-aliyun"><i class="fa fa-cloud"></i></span>
+			<br>Aliyun
+		</a>
+	</span>
+	<span class="footer-sinaweibo-link">
+		<a href="http://weibo.com/11111111111" target="_blank" class="sinaweibo">
+			<span class="tinicon-sinaweibo"><i class="fa fa-weibo"></i></span>
+			<br>Weibo
+		</a>
+	</span>
+	 
+		<span class="footer-qq-link">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=1364831875&site=qq&menu=yes" target="_blank" class="qq">
+			<span class="tinicon-qq"><i class="fa fa-qq"></i></span>
+			<br>QQ
+		</a>
+	</span> 
+		<span class="footer-newsletter-link">
+		<a href="mailto:00000@163.com" target="_blank" class="Email">
+			<span class="tinicon-newsletter"><i class="fa fa-envelope"></i></span>
+			<br>Email
+		</a>
+	</span>        </div>
+        <div class="clear clr"></div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'90%'},50); 
+</script>
+  </div>
+</section>
+<div class="floatbtn"> <span id="bdshare" class="bdshare_t mobile-hide"><a class="bds_more" href="#" data-cmd="more"></a></span>  <span id="back-to-top"><i class="fa fa-arrow-up"></i></span> </div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_sign_object = {"redirecturl":"","ajaxurl":" ","loadingmessage":""};
+var tin = {"ajax_url":" ","tin_url":"","Tracker":{"type":"home","pid":1},"uid":0}/* ]]> */
+</script> 
+<script src="/skin/ecms802/js/function.js"></script> 
+<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = " ";</script> 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+<div class="nmplaybar">
+  <div class="nmplayer-prosess"></div>
+  <div class="nmplayer-wrap">
+    <div class="nmplayer-info"><span class="nmplayer-title"></span><span class="nmplayer-time"></span><span class="nmplayer-lrc"></span></div>
+    <div class="nmplayer-control">
+      <ul>
+        <li> <a id="nmplayer-prev" href="javascript:;"> <span class="icon-previous fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-button" href="javascript:;"> <span class="icon-pause fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-next" href="javascript:;"> <span class="icon-next fxfont"></span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='/skin/ecms802/js/base.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/wp-embed.min.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/theme.min.js?ver=2016.12.21'></script> 
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'100%'},50); 
+</script>
+</body>
+</html>

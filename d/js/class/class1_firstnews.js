@@ -1,0 +1,1 @@
+document.write("<li><a href=\"http://localhost/news/shebei/109.html\" title=\"iPhone按钮不够用？不用蓝牙不用电，声波就能控制！\">iPhone按钮不够用？不用蓝牙不用电，声</a></li><li><a href=\"http://localhost/news/shebei/94.html\" title=\"手臂变成屏幕：智能腕带让你获得手机新玩法\">手臂变成屏幕：智能腕带让你获得手机</a></li><li><a href=\"http://localhost/news/shebei/16.html\" title=\"专门适配iPhone设备的EL-8 Titanium闪电接口耳机\">专门适配iPhone设备的EL-8 Titaniu</a></li>");

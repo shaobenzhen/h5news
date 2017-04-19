@@ -1,0 +1,708 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<title>生活-h5新闻网站</title>
+<meta name="keywords" content="生活" />
+<meta name="description" content="生活" />
+<script type='text/javascript' src='/e/data/js/ajax.js'></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/style.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/responsive.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/custom.css"  />
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome.css"  media="all" />
+<style>
+article.product .tips {
+	display: none;
+}
+</style>
+<link rel='stylesheet' id='nm-css'  href='/skin/ecms802/css/style2.css?ver=2016.12.21' type='text/css' media='all' />
+<script type='text/javascript' src='/skin/ecms802/js/jquery-1.10.2.min.js?ver=2016.12.21'></script>
+<!--[if lt IE 9]>
+<script src="/skin/ecms802/js/html5.js"></script>
+<script src="/skin/ecms802/js/css3-mediaqueries.js"></script>
+<script src="/skin/ecms802/js/PIE_IE678.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/iefix.css"  media="all" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/skin/ecms802/css/font-awesome-ie7.min.css"  media="all" />
+<![endif]-->
+<!--[if IE 6]>
+<script src="/skin/ecms802/js/kill-IE6.js"></script>
+<![endif]-->
+</head>
+<body id="wrap" class="home blog" style="background:#ffffff; ">
+<div id="body-container">
+<aside id="navmenu-mobile">
+  <div id="navmenu-mobile-wraper">
+    <div class="mobile-login-field">
+      <div id="login-box-mobile">
+        <div class="login-box-mobile-form"> 
+          <script src="/e/member/login/loginjsm.php"></script></div>
+      </div>
+    </div>
+    <ul id="menu-mobile" class="menu-mobile">
+            <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children "><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>    </ul>
+  </div>
+</aside>
+<section id="content-container">
+  <header class="header-wrap" id="nav-scroll">
+    <div class="nav-wrap">
+      <div class="logo"> <a href="/" alt="h5新闻网站" id="logo" > <img src="/skin/ecms802/img/logo.png"> </a> </div>
+      <div class="toggle-menu"> <i class="fa fa-bars"></i> </div>
+      <div class="search-btn-click"> <i class="fa fa-search"></i> </div>
+      <div id="login-reg"> 
+        <script src="/e/member/login/loginjsd.php"></script> 
+      </div>
+      <div id="focus-us">
+关注我们<div id="focus-slide" class="ie_pie">
+<div class="focus-title">关注我们</div>
+<p class="focus-content">
+		<a href="http://weibo.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-weibo"></i>新浪微博</span></a>
+		<a href="http://t.qq.com/12345678" target="_blank" class="sinaweibo"><span><i class="fa fa-tencent-weibo"></i>腾讯微博</span></a>
+</p>
+</div></div>
+
+<!--  请改为自己的，或者 “不写入缓存” 就关闭了  -->      <nav id="pri-nav" class="site-navigation pri-nav elan_menu" role="navigation">
+        <div class="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95-container">
+          <ul id="menu-%e9%9b%86%e5%90%88%e7%9f%ad%e8%8f%9c%e5%8d%95" class="nav-menu">
+                  <li class="menu-item menu-item-has-children "><a rel="nofollow" href="/"><i class="fa fa-home"></i>首页<span>Home</span></a></li>
+        <li class="menu-item menu-item-has-children "><a href="http://localhost/news/"><i class="fa fa-paper-plane"></i>资讯<span> news</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/news/youxi/"><i class="fa "></i>游戏</a></li><li class="menu-item"><a href="http://localhost/news/hulianwang/"><i class="fa "></i>互联网</a></li><li class="menu-item"><a href="http://localhost/news/yidonghulianwang/"><i class="fa "></i>移动互联网</a></li><li class="menu-item"><a href="http://localhost/news/dianshang/"><i class="fa "></i>电商</a></li><li class="menu-item"><a href="http://localhost/news/shebei/"><i class="fa "></i>设备</a></li><li class="menu-item"><a href="http://localhost/news/tumeiti/"><i class="fa "></i>图媒体</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/sheji/"><i class="fa fa-leaf"></i>设计<span> SHE JI</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/sheji/jiaohu/"><i class="fa "></i>交互</a></li><li class="menu-item"><a href="http://localhost/sheji/wangye/"><i class="fa "></i>网页</a></li><li class="menu-item"><a href="http://localhost/sheji/shijue/"><i class="fa "></i>视觉</a></li><li class="menu-item"><a href="http://localhost/sheji/gongye/"><i class="fa "></i>工业</a></li><li class="menu-item"><a href="http://localhost/sheji/APP/"><i class="fa "></i>APP</a></li></ul></li><li class="menu-item menu-item-has-children current-menu-item"><a href="http://localhost/shenghuo/"><i class="fa fa-music"></i>生活<span> Seng Huo</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/shenghuo/zhijia/"><i class="fa "></i>智驾</a></li><li class="menu-item"><a href="http://localhost/shenghuo/zhichang/"><i class="fa "></i>职场</a></li><li class="menu-item"><a href="http://localhost/shenghuo/jiaju/"><i class="fa "></i>家居</a></li></ul></li><li class="menu-item menu-item-has-children "><a href="http://localhost/zonghedaohang/"><i class="fa fa-folder-open"></i>综合导航<span> daohang</span></a><ul class="sub-menu"><li class="menu-item"><a href="http://localhost/guanggaohezuo/"><i class="fa fa-suitcase"></i>广告合作</a></li><li class="menu-item"><a href="http://localhost/geiwoliuyan/"><i class="fa fa-pencil"></i>给我留言</a></li><li class="menu-item"><a href="http://localhost/guanyuwomen/"><i class="fa fa-trophy"></i>关于我们</a></li><li class="menu-item"><a href="http://localhost/lianxifangshi/"><i class="fa fa-phone"></i>联系方式</a></li></ul></li>                      </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="clr"></div>
+    <div class="site_loading"></div>
+    <div class="header-search-slide" style="display: none;">
+      <form onsubmit="return checkSearchForm()" method="post" id="searchform" class="searchform" action="/e/search/index.php" role="search">
+        <input type="hidden" value="title" name="show">
+        <input type="hidden" value="1" name="tempid">
+        <input type="hidden" value="news" name="tbname">
+        <input name="mid" value="1" type="hidden">
+        <input type="search" class="field" name="keyboard" value="" placeholder="输入关键词并回车" required>
+        <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+  </header>
+  <div class="hidefixnav"></div>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'33%'},50); 
+</script>
+  <div class="breadcrumbs">
+    <div class="container clr">
+      <div id="breadcrumbs">
+        <h1><i class="fa fa-folder-open"></i>生活</h1>
+        <div class="breadcrumbs-text"><a href="http://localhost/">首页</a>&nbsp;>&nbsp;<a href="http://localhost/shenghuo/">生活</a></div>
+      </div>
+    </div>
+  </div>
+  <div id="main-wrap">
+    <div id="home-blog-wrap" class="container two-col-container">
+      <div id="main-wrap-left">
+        <div class="bloglist-container clr">
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/jiaju/71.html" title="最新智能灯泡：允许Wi-Fi开启，25年不用换" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/70ebb4986d9f3e326719cbb1d11c4a8e.jpg" alt="最新智能灯泡：允许Wi-Fi开启，25年不用换">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/jiaju/71.html" title="最新智能灯泡：允许Wi-Fi开启，25年不用换">最新智能灯泡：允许Wi-Fi开启，25年不用换</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=21&id=71"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/jiaju/71.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>据国外媒体报道，目前，最新研制的一种灯泡可由智能手机进行控制，它不仅起到照明的作用，还可允许Wi-Fi开启，具有多种色彩，人们只需按下智能手机的按键便能控制。这种智能灯泡被称为“LIFX灯泡”，使用寿命还可以达到25年，安装时像更换当前普通灯泡一样简单，一种手机插件软件可以控制灯泡的开启</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhijia/69.html" title="特斯拉当出租车，这是要变成比亚迪？" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/3431fa97c2d175647c66721d2474c19c.jpg" alt="特斯拉当出租车，这是要变成比亚迪？">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhijia/69.html" title="特斯拉当出租车，这是要变成比亚迪？">特斯拉当出租车，这是要变成比亚迪？</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=15&id=69"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhijia/69.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p> 如果到现在还没有壕友带你坐过特斯拉，没关系，过些时候去武汉打个电话叫辆出租车或许就可以感受一把火了这么久的特斯拉了。据《楚天金报》报道，最近武汉 1100 辆纯电动出租车项目中标结果公布，其中有 100 辆出租车选用车型为特斯拉。于是有人提出疑问：这说明武汉是一座壕的城市，还是拥有</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhichang/68.html" title="挤时间并没有意义，学会如何高效管理你的时间！" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d39c80ac31aadd844c69f53ea9de4e3e.jpg" alt="挤时间并没有意义，学会如何高效管理你的时间！">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhichang/68.html" title="挤时间并没有意义，学会如何高效管理你的时间！">挤时间并没有意义，学会如何高效管理你的时间！</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=16&id=68"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhichang/68.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p> 本文作者：崔彦发  via：人人都是产品经理人们说时间像海绵里的水，挤挤就会有的。当你的一天因为没有被安排好，在杂乱无章的工作计划中被荒废时，你还从海绵中挤出那点可怜的时间，有什么意义呢？所以不要总去想着挤时间，而是要去想如何高效的管理你的时间。高效的时间管理可以让你有高效的一天</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/jiaju/67.html" title="NOMAD可折叠热水浴缸" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/def9993931bfa9b4d1242b4168feb442.jpg" alt="NOMAD可折叠热水浴缸">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/jiaju/67.html" title="NOMAD可折叠热水浴缸">NOMAD可折叠热水浴缸</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=21&id=67"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/jiaju/67.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>在一整天的野外旅行或远足后，疲惫的身躯在就地露营后一定会想要来个舒适的热水澡给一天划上完美的名号，现在这不再是梦，只要你拥有Nomad可折叠热水浴缸（Nomad Collapsible Hot Tub） 。这种独特的浴缸可以打包和折叠成行李袋的形式方便携带，线圈可使用便携燃气或柴火加热，最多可允许五个人</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhichang/66.html" title="问题来了，到大公司有多少机率成为技术牛人？" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ad0c291e81b39441f7ddb6e0fc1b718c.jpg" alt="问题来了，到大公司有多少机率成为技术牛人？">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhichang/66.html" title="问题来了，到大公司有多少机率成为技术牛人？">问题来了，到大公司有多少机率成为技术牛人？</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=16&id=66"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhichang/66.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>有同学说，去支付宝面试移动开发，面试官问了几个 iOS 底层问题，没回答上来，面试的人说，这些技术问题来了支付宝就能学到，内部很多技术文档…喜欢技术的人听起来难免心痒难当砰然心动。这种说辞就是忽悠没经验的人的。支付宝既然有这么多技术资料，那么技术团队成员各个都成了高手吗?这些资料</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhichang/64.html" title="设计师：迷茫的我们存在哪些问题？" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/1e31f1a684b5559eddbb117c3e3d586a.jpg" alt="设计师：迷茫的我们存在哪些问题？">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhichang/64.html" title="设计师：迷茫的我们存在哪些问题？">设计师：迷茫的我们存在哪些问题？</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=16&id=64"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhichang/64.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>专业技能方面1、过于依赖素材或者过于反感素材这2种情况都是设计师不太不成熟的表现，设计师过于依赖素材，动手能力和创新能力都会退化，长远来看对自己的职业发展很不利，而过于反感素材的使用，也不知道是自尊心在作祟还是受过什么刺激，若你是能天马行空，想到什么需要什么，就以掩耳不及盗铃之</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhijia/63.html" title="“液流电池才是未来”，nanoFLOWCELL 秀两款大作" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/e504b3652930f513a3f4ea749741e349.jpg" alt="“液流电池才是未来”，nanoFLOWCELL 秀两款大作">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhijia/63.html" title="“液流电池才是未来”，nanoFLOWCELL 秀两款大作">“液流电池才是未来”，nanoFLOWCELL 秀两款大作</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=15&id=63"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhijia/63.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>百公里加速仅 2.8 秒；最高时速 380 km/h；续航在 400 km 到 600 km 之间；搭载液流电池。这是 nanoFLOWCELL AG 旗下电动概念车 QUANT E 的能耐。去年日内瓦车展，这家来自列支敦士登的能源公司因展出QUANT E 而声名大噪。时隔一年，nanoFLOWCELL AG 于 2015 日内瓦车展全球首发了两款新作：QU</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhichang/61.html" title="谈论产品经理时，我们在谈论什么？" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/6844206cf1429717888ac1c3c4207ed9.jpg" alt="谈论产品经理时，我们在谈论什么？">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhichang/61.html" title="谈论产品经理时，我们在谈论什么？">谈论产品经理时，我们在谈论什么？</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=16&id=61"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhichang/61.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>近期常有同学朋友向我问起一些有关产品经理的事情，我会把我知道的一些比较好的了解这个职位的渠道和个人的一些简单思考告诉他们。虽然产品经理这个词，在近几年可能已经成为了陈词滥调，但我还是希望在做事情的同时，回归原点，去探寻一下它的本质，用通俗的语言去总结这个职位。希望通过文章</p>
+  </div>
+  <div class="clear"></div>
+</article>
+<article class="home-blog-entry col span_1 clr">
+<a href="http://localhost/shenghuo/zhijia/59.html" title="nanoFLOWCELL AG 新作：百公里加速2.8秒，续航力1000公里" class="fancyimg home-blog-entry-thumb">
+  <div class="thumb-img">
+  <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/80f3523c6a91e5af894162dc8bb63700.jpg" alt="nanoFLOWCELL AG 新作：百公里加速2.8秒，续航力1000公里">
+  <span><i class="fa fa-expand"></i></span>
+  </div>
+  </a>
+  <div class="home-blog-entry-text clr">
+    <h3><a href="http://localhost/shenghuo/zhijia/59.html" title="nanoFLOWCELL AG 新作：百公里加速2.8秒，续航力1000公里">nanoFLOWCELL AG 新作：百公里加速2.8秒，续航力1000公里</a></h3>
+    <div class="meta">
+    <span class="postlist-meta-cat"><i class="fa fa-bookmark"></i>
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a></span>
+    <span class="postlist-meta-time"><i class="fa fa-calendar"></i>2016-01-15</span>
+    <span class="postlist-meta-views"><i class="fa fa-fire"></i>浏览: <script src="http://localhost/e/public/ViewClick/?classid=15&id=59"></script></span>
+    <span class="postlist-meta-comments"><i class="fa fa-comments"></i><a href="http://localhost/shenghuo/zhijia/59.html#comments">
+    <span>查看评论</span></a></span></div>
+    <p>nanoFLOWCELL AG 是一家来自列支敦士登的能源公司，去年日内瓦车展，该公司因展示了一款非常特别的电动概念车 Quant E 而声名大噪。Quant E 的特别之处在于搭载了全新“液流电池”动力系统nanoFLOWCELL。在实验室里模拟计算得出，该车百公里加速仅 2.8 秒，最高时速为 380 km/h。而今年日</p>
+  </div>
+  <div class="clear"></div>
+</article></div>
+        <!-- pagination -->
+        <div class="clear"> </div>
+        <div class="page5"><a title="Total record">&nbsp;<b>41</b> </a>&nbsp;&nbsp;<a href="http://localhost/shenghuo/index.html">首页</a>&nbsp;<a href="http://localhost/shenghuo/index_2.html">上一页</a>&nbsp;<a href="http://localhost/shenghuo/index.html">1</a>&nbsp;<a href="http://localhost/shenghuo/index_2.html">2</a>&nbsp;<b>3</b></div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'55%'},50); 
+</script>
+      <div class="f8f482afb85e4ded"></div>
+      <div id="sidebar" class="clr"> 
+        <script src="/e/member/login/loginjsc.php"></script>
+        <div id="enhancedtextwidget-10" class="widget widget_text enhanced-text-widget">
+<div class="textwidget widget-text">
+
+<a href="#" target="_blank">
+<img src="/skin/ecms802/img/a01.png" alt="购买主题"/></a>
+
+</div></div>        <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="推荐文章"><i class="fa fa-thumbs-up"></i><span>推荐文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhijia/146.html" title="特斯拉新款车型 70D ，续航力386公里">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/ca5b33ccfe4125f1522c66772e7e9120.jpg" alt="特斯拉新款车型 70D ，续航力386公里" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhijia/146.html" rel="bookmark" title="特斯拉新款车型 70D ，续航力386公里">特斯拉新款车型 70D ，续航力386公里</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhijia/" rel="category tag">智驾</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/zhichang/141.html" title="别老意淫能挣多少钱，做好职业生涯规">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/2f91ed5e15aba49b55f440d5f6627bea.jpg" alt="别老意淫能挣多少钱，做好职业生涯规" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/zhichang/141.html" rel="bookmark" title="别老意淫能挣多少钱，做好职业生涯规">别老意淫能挣多少钱，做好职业生涯规</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/zhichang/" rel="category tag">职场</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/shenghuo/jiaju/143.html" title="搬家很方便，THE CRATES箱式家具">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/23256400df4396666d3116e564c1b013.jpg" alt="搬家很方便，THE CRATES箱式家具" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/shenghuo/jiaju/143.html" rel="bookmark" title="搬家很方便，THE CRATES箱式家具">搬家很方便，THE CRATES箱式家具</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/shenghuo/jiaju/" rel="category tag">家居</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/135.html" title="创业路上总是忙不过来？问问自己这6">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/a0ce58f118fdaacd5b7877947609691a.jpg" alt="创业路上总是忙不过来？问问自己这6" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/135.html" rel="bookmark" title="创业路上总是忙不过来？问问自己这6">创业路上总是忙不过来？问问自己这6</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/chuangtou/chuangye/131.html" title="5000万买来的27条教训：4年从打工仔">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/bf006ab9b4df1b185a46800fa25235ea.jpg" alt="5000万买来的27条教训：4年从打工仔" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/chuangtou/chuangye/131.html" rel="bookmark" title="5000万买来的27条教训：4年从打工仔">5000万买来的27条教训：4年从打工仔</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/chuangtou/chuangye/" rel="category tag">创业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/hulianwang/42.html" title="一个新世界的新视野，发出令人惊叹的">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/82f84024e5ad30ec55c223d7741f90cf.jpg" alt="一个新世界的新视野，发出令人惊叹的" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/hulianwang/42.html" rel="bookmark" title="一个新世界的新视野，发出令人惊叹的">一个新世界的新视野，发出令人惊叹的</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/hulianwang/12.html" title="合情不合法，视听类APP成监管“方外">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/89a331899bcadc9dcaea741d1080bdc7.jpg" alt="合情不合法，视听类APP成监管“方外" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/hulianwang/12.html" rel="bookmark" title="合情不合法，视听类APP成监管“方外">合情不合法，视听类APP成监管“方外</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/hulianwang/8.html" title="“互联网+智慧医疗”成热词">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/01a4a4a0e904497d775c4d7fad8090d3.jpg" alt="“互联网+智慧医疗”成热词" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/hulianwang/8.html" rel="bookmark" title="“互联网+智慧医疗”成热词">“互联网+智慧医疗”成热词</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/hulianwang/" rel="category tag">互联网</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+        <div id="enhancedtextwidget-11" class="widget widget_text enhanced-text-widget">
+<div class="textwidget widget-text">
+
+<a href="#" target="_blank">
+<img src="/skin/ecms802/img/a02.png" alt="购买主题"/></a>
+
+</div></div>        <div id="tintabs-3" class="widget widget_tin_tabs">
+          <ul class="tin-tabs-nav group tab-count-3">
+            <li class="tin-tab tab-recent"><a href="#tab-recent" title="头条文章"><i class="fa fa-thumbs-up"></i><span>头条文章</span></a></li>
+            <li class="tin-tab tab-popular"></li>
+          </ul>
+          <div class="tin-tabs-container">
+            <ul id="tab-recent" class="tin-tab group thumbs-enabled">
+              
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/115.html" title="3D液态石油 type 5 潜水腕表">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/6e3d9a32298661ceb7f46b73bf7f0e7f.jpg" alt="3D液态石油 type 5 潜水腕表" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/115.html" rel="bookmark" title="3D液态石油 type 5 潜水腕表">3D液态石油 type 5 潜水腕表</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/gongye/114.html" title="和宝宝共享美丽风景：Longboardstrol">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/16da0bd8bb8e206abea777f274b6af0a.jpg" alt="和宝宝共享美丽风景：Longboardstrol" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/gongye/114.html" rel="bookmark" title="和宝宝共享美丽风景：Longboardstrol">和宝宝共享美丽风景：Longboardstrol</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/gongye/" rel="category tag">工业</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/sheji/shijue/113.html" title="平面设计师必知的留白气质与技巧！">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/7b0c7cec21e866af1f720954933e9947.jpg" alt="平面设计师必知的留白气质与技巧！" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/sheji/shijue/113.html" rel="bookmark" title="平面设计师必知的留白气质与技巧！">平面设计师必知的留白气质与技巧！</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/sheji/shijue/" rel="category tag">视觉</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/shebei/109.html" title="iPhone按钮不够用？不用蓝牙不用电，声">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/0cb5f07a5c43a51c6e28dc0e32e1a709.jpg" alt="iPhone按钮不够用？不用蓝牙不用电，声" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/shebei/109.html" rel="bookmark" title="iPhone按钮不够用？不用蓝牙不用电，声">iPhone按钮不够用？不用蓝牙不用电，声</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/guanli/105.html" title="成功的CEO如何打造一支优秀的团队？">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/02ed0d2920c286aa5e4bc1f227c55f49.jpg" alt="成功的CEO如何打造一支优秀的团队？" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/guanli/105.html" rel="bookmark" title="成功的CEO如何打造一支优秀的团队？">成功的CEO如何打造一支优秀的团队？</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/guanli/" rel="category tag">管理</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/101.html" title="如何1天内做到1500万App曝光20万下">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/5dafe9b5adbc34c3c9b10fbbe6c4854d.jpg" alt="如何1天内做到1500万App曝光20万下" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/101.html" rel="bookmark" title="如何1天内做到1500万App曝光20万下">如何1天内做到1500万App曝光20万下</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/yunying/yingxiao/97.html" title="10000+的秘密：别人的文章为什么那么">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/2aa819b41ed8b1799630b1c2a7fdda1a.jpg" alt="10000+的秘密：别人的文章为什么那么" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/yunying/yingxiao/97.html" rel="bookmark" title="10000+的秘密：别人的文章为什么那么">10000+的秘密：别人的文章为什么那么</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/yunying/yingxiao/" rel="category tag">营销</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/shebei/94.html" title="手臂变成屏幕：智能腕带让你获得手机">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/d5ef5e2cab700fa5b3108504ef982516.jpg" alt="手臂变成屏幕：智能腕带让你获得手机" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/shebei/94.html" rel="bookmark" title="手臂变成屏幕：智能腕带让你获得手机">手臂变成屏幕：智能腕带让你获得手机</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a>
+    </span>
+    </div>
+</li>
+
+<li>
+  <div class="tab-item-thumbnail">
+  <a href="http://localhost/news/shebei/16.html" title="专门适配iPhone设备的EL-8 Titaniu">
+    <div class="thumb-img">
+    <img class="box-hide" src="/skin/ecms802/img/image-pending.gif" data-original="http://localhost/e/data/tmp/titlepic/b4728b2b2c7ca09a725c0fdc3f5ff9f0.jpg" alt="专门适配iPhone设备的EL-8 Titaniu" />
+    <span><i class="fa fa-expand"></i></span></div>
+    </a></div>
+  <div class="tab-item-inner group">
+    <p class="tab-item-title">
+    <a href="http://localhost/news/shebei/16.html" rel="bookmark" title="专门适配iPhone设备的EL-8 Titaniu">专门适配iPhone设备的EL-8 Titaniu</a></p>
+    <span class="tab-item-date">2016-01-15</span>&nbsp;<span class="tab-item-category">
+    <a href="http://localhost/news/shebei/" rel="category tag">设备</a>
+    </span>
+    </div>
+</li>
+            </ul>
+            <ul id="tab-popular" class="tin-tab group thumbs-enabled">
+            </ul>
+          </div>
+        </div>
+                <div class="floatwidget-container"> </div>
+      </div>
+      <script type="text/javascript">
+	$('.site_loading').animate({'width':'78%'},50);  
+</script></div>
+    <div class="clear"></div>
+  </div>
+  <div id="bottom-banner" class="banner">
+    <div class="container"> </div>
+  </div>
+  <footer id="footer-nav-wrap">
+    <div id="footer-nav" class="layout-wrap">
+      <div id="footer-nav-left">
+        <div id="footermenu" class="menu-footer-container">
+          <ul id="footer-nav-links" class="footermenu">
+            <li id="menu-item" class="menu-item"><a href="http://news.baidu.com/">百度新闻</a></li>
+<li id="menu-item" class="menu-item"><a href="http://news.sina.com.cn/">新浪新闻</a></li>
+          </ul>
+        </div>
+        <div id="footer-copyright">&copy; 2016
+          h5新闻网站          &nbsp;
+          京ICP备0000000号-1
+
+<!-- 统计代码 -->
+<script type='text/javascript' src='/tongji.js'></script>
+<!-- 请改为自已的-->
+        </div>
+      </div>
+      <div id="footer-nav-right">
+        <div id="footer-links-icons">
+          	<span class="footer-aliyun-link">
+		<a href="https://www.aliyun.com" target="_blank" class="aliyun">
+			<span class="tinicon-aliyun"><i class="fa fa-cloud"></i></span>
+			<br>Aliyun
+		</a>
+	</span>
+	<span class="footer-sinaweibo-link">
+		<a href="http://weibo.com/11111111111" target="_blank" class="sinaweibo">
+			<span class="tinicon-sinaweibo"><i class="fa fa-weibo"></i></span>
+			<br>Weibo
+		</a>
+	</span>
+	 
+		<span class="footer-qq-link">
+		<a href="http://wpa.qq.com/msgrd?v=3&uin=1364831875&site=qq&menu=yes" target="_blank" class="qq">
+			<span class="tinicon-qq"><i class="fa fa-qq"></i></span>
+			<br>QQ
+		</a>
+	</span>
+	 
+	<span class="footer-rss-link">
+		<a href="/e/web/?type=rss2&classid=0" target="_blank" class="rss">
+			<span class="tinicon-rss"><i class="fa fa-rss"></i></span>
+			<br>RSS
+		</a>
+	</span>
+		<span class="footer-newsletter-link">
+		<a href="mailto:00000@163.com" target="_blank" class="Email">
+			<span class="tinicon-newsletter"><i class="fa fa-envelope"></i></span>
+			<br>Email
+		</a>
+	</span>        </div>
+        <div class="clear clr"></div>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+	$('.site_loading').animate({'width':'90%'},50); 
+</script>
+  </div>
+</section>
+<div class="floatbtn"> <span id="bdshare" class="bdshare_t mobile-hide"><a class="bds_more" href="#" data-cmd="more"></a></span> <span id="zh-cn-tw" class="mobile-hide"><i><a id="StranLink">繁</a></i></span> <span id="back-to-top"><i class="fa fa-arrow-up"></i></span> </div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var ajax_sign_object = {"redirecturl":"","ajaxurl":" ","loadingmessage":""};
+var tin = {"ajax_url":" ","tin_url":"","Tracker":{"type":"home","pid":1},"uid":0}/* ]]> */
+</script> 
+<script src="/skin/ecms802/js/function.js"></script> 
+<script type="text/javascript">var defaultEncoding = 0; var translateDelay = 100; var cookieDomain = " ";</script> 
+<script type="text/javascript" id="bdshare_js" data="type=tools" ></script> 
+<script type="text/javascript" id="bdshell_js"></script> 
+<script type="text/javascript">
+        document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000);
+    </script>
+<div class="nmplaybar">
+  <div class="nmplayer-prosess"></div>
+  <div class="nmplayer-wrap">
+    <div class="nmplayer-info"><span class="nmplayer-title"></span><span class="nmplayer-time"></span><span class="nmplayer-lrc"></span></div>
+    <div class="nmplayer-control">
+      <ul>
+        <li> <a id="nmplayer-prev" href="javascript:;"> <span class="icon-previous fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-button" href="javascript:;"> <span class="icon-pause fxfont "></span> </a> </li>
+        <li> <a id="nmplayer-next" href="javascript:;"> <span class="icon-next fxfont"></span> </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script type='text/javascript' src='/skin/ecms802/js/base.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/wp-embed.min.js?ver=2016.12.21'></script> 
+<script type='text/javascript' src='/skin/ecms802/js/theme.min.js?ver=2016.12.21'></script> 
+<script type="text/javascript">
+	$('.site_loading').animate({'width':'100%'},50); 
+</script>
+</body>
+</html>
